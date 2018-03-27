@@ -60,9 +60,4 @@ Each VPC comes up with a main route table that can be modified if needed.
 
 ### Elastic IP
 
-An Elastic IP address is a public IPv4 address, which is reachable from the internet. If your instance does not have a public IPv4 address, you can associate an Elastic IP address with your instance to enable communication with the internet. We have used elastic ip adress for our Postfix servers, Network Load Balancer, and NAT Gateways.We use Cloudformation templates to reserve elastic ip. Take a look at this [cloudformation Template](https://github.cerner.com/HealtheLife/healthelife_aws-repo/blob/master/cloudformation_templates/postfix_nlb_external_template.json#L55-L60) to understand how we have specified to use elastic ip.
-
-### VPN (Virtual Private Network)
-
-We have the option to connect to the Amazon VPC over VPN to make the connection more secure. It is like connecting to Cerner Network from your home using cerner VPN. We currently have the VPN connection between our CA CHO Clients and AWS VPC. We also have the VPN connection between Cerner Data Centers and AWS VPC. 
-
+An Elastic IP address is a public IPv4 address, which is reachable from the internet. If your instance does not have a public IPv4 address, you can associate an Elastic IP address with your instance to enable communication with the internet. We have used elastic ip adress for our Postfix servers, Network Load Balancer, and NAT Gateways.We use Cloudformation templates to reserve elastic ip. 
