@@ -65,4 +65,5 @@ An Elastic IP address is a public IPv4 address, which is reachable from the inte
 ### Hosted Zones and DNS
 
 A hosted zone is a collection of records for a specified domain. You create a hosted zone for a domain (such as example.com), and then you create records to tell the Domain Name System how you want traffic to be routed for that domain.
-a
+
+![image](Image uploaded from iOS.jpg)
