@@ -26,5 +26,7 @@ Subnet in AWS is a subset of a VPC. Each VPC can have multiple subnets. One or m
 
 Subnets can be internal or external. For example, our DMZ Subnet is external while App or DB Subnet is internal. 
 
+https://docs.aws.amazon.com/AmazonVPC/latest/GettingStartedGuide/images/getting-started-1-diagram.png
+
 
 
