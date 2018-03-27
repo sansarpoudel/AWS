@@ -61,3 +61,7 @@ Each VPC comes up with a main route table that can be modified if needed.
 ### Elastic IP
 
 An Elastic IP address is a public IPv4 address, which is reachable from the internet. If your instance does not have a public IPv4 address, you can associate an Elastic IP address with your instance to enable communication with the internet. We have used elastic ip adress for our Postfix servers, Network Load Balancer, and NAT Gateways.We use Cloudformation templates to reserve elastic ip. 
+
+### Hosted Zones and DNS
+
+A hosted zone is a collection of records for a specified domain. You create a hosted zone for a domain (such as example.com), and then you create records to tell the Domain Name System how you want traffic to be routed for that domain.
